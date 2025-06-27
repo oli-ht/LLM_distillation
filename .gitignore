@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Model files and checkpoints
+*.bin
+*.safetensors
+*.gguf
+*.pt
+*.pth
+checkpoint-*/
+serenity-llama-finetuned/
+serenity-dialogpt-finetuned/
+Llama-3.2-1B/
+
+# Wandb
+wandb/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.local
+
+# Large data files
+*.jsonl
+email_chunks.json
+emails.txt
+serenity_instructions.jsonl
+serenity_qas_dataset.txt 
